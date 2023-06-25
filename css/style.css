@@ -178,3 +178,35 @@ h1 {
   color: var(--offWhite);
   text-decoration: none;
 }
+
+@media screen and (max-width: 1070px) {
+  .gridContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+  }
+
+  .container {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .newsCard {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .navButtons {
+    display: none;
+  }
+}
